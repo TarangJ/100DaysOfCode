@@ -1,0 +1,1 @@
+To find out the unique element in the array!
