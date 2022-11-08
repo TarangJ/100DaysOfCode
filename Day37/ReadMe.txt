@@ -1,4 +1,4 @@
-Example 1:
+Example :
 
 Input: 5
 
