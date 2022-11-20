@@ -1,21 +1,20 @@
-class IsSDigPalin {
-  public:
-    int isDigitSumPalindrome(int N) {
-        // code here
-          int newNum = 0;
-        // Finding out the digit sum
-        while (N) {
-            newNum += N % 10;
-            N /= 10;
-        }
-        int reversedNewNum = 0;
-        N = newNum;
-        // Reversing N and storing it in reversedNewNum
-        while (N) {
-            reversedNewNum = (reversedNewNum * 10) + (N % 10);
-            N /= 10;
-        }
-        return reversedNewNum == newNum;
+#include<iostream>
+using namespace std;
+int main(){
+  int n,rev,chk,sum=0;
+  cout<<"Enter the number : ";
+  cin>>n;
+  chk=n;
+  while(n>0){
+    rev=n%10;
+    sum=(sum*10)+rev;
+    n/=10;
+  }
+  if(chk==sum)
+    cout<<"It is a palindrome \n";
+    
+  else
+    cout<<"Not a palindrome \n";
 
-    }
-};
+  return 0;
+}
