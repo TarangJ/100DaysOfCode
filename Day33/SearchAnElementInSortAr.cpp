@@ -13,8 +13,13 @@ int main(){
         cin>>arr[i];
 
         if(arr[i]==f){
-            cout<<"Element found at index : "<<i;
+            cout<<"\n Element found at index : "<<i;
+            break;
+        }
+
+        else{
+            cout<<" \n Element not found at index "<<i;
         }
     }
     return 0;
-} 
+}
