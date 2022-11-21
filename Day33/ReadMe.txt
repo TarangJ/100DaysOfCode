@@ -1,4 +1,5 @@
  Function to find element in sorted array
  arr: input array
- N: size of array
- K: element to be searched
+ n: size of array
+ f: element to be searched
+ 
