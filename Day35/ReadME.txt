@@ -1,12 +1,13 @@
-This is a functional problem. Your task is to return the product of array elements under a given modulo.
-The modulo operation finds the remainder after the division of one number by another. For example, K(mod(m))=K%m= remainder obtained when K is divided by m
+Given a non-negative integer N. The task is to check if N is a power of 2. More formally, check if N can be expressed as 2x for some x.
 
-Example:
+Example 1: 
+Input:-
+Enter the number : 128
+Output:-
+Yes,the given number is power of 2 
 
-Input:
-1
-4
-1 2 3 4
-
-Output:
-24
+Example 2: 
+Input:-
+Enter the number : 69
+Output:-
+No ,the given number is not power of 2 
