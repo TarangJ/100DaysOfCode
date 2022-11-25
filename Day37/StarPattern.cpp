@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int n;
-    cout<<"Enter the number of row for print triangle : ";
+    cout<<"Enter the number of row for print : ";
     cin>>n;
     for(int i=1;i<=n;i++){
 	    for(int j=n;j>=i;j--){
