@@ -4,7 +4,8 @@ we have to reset j value so as it can,start from beginning and print * equal to 
 
 Example :
 
-Input: 5
+Input:
+Enter the number of rows you want : 5
 
 Output:
 * * * * *
