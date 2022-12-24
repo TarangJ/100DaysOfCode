@@ -10,5 +10,5 @@ vector<int> valueEqualToIndex(int arr[], int n) {
 	}
 };
 int main(){
-	return 0;
+return 0;
 }
